@@ -1,0 +1,12 @@
+# Writing all output to: G:\Engenharia de Computa????o 4?? semestre\Eletr??nica I\2?? trabalho de eletronica\2?? trabalho de eletronica.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
