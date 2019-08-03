@@ -1,0 +1,31 @@
+Arquitetura cliente
+	Banco de dados+aplicação no computador do cliente, porém um backp na nuvem do banco de dados + aplicação.
+	A aplicação terá que rodar off-line.
+Hardware e software
+	Windows 7 64 bits
+	Rede oi 10Mb
+	Aplicação web localhost
+	Duocore + 2Gb de ram, um upgrade de 2G de ram
+	Navegador google chrome/mozila firefox
+1º opção
+O proprietário possui um escritório em casa, e para evitar que ele
+ se desloque sempre da sua casa para verificar o andamento da loja,
+ foi proposto que houvesse uma “copia” da aplicação, e do banco de dados
+ em seu computador pessoal. Em que seu computador fizesse sincronismo com
+ o servidor que guarda o backup dos dados da loja.
+2º opção
+	O proprietário possui um escritório em casa, e para evitar
+ que ele se desloque sempre da sua casa para verificar o andamento
+ da loja, foi proposto que ele houvesse a possibilidade de acessar
+ remotamente o sistema da loja, onde ele teria acesso ao computador
+ remotamente. Essa opção de acesso remoto pode ser feito com algum
+ software ou pelo próprio Windows 8.1 ou 10 que traz esse software
+ já incluído. O proprietário teria que ter um cadastro no computado
+r da loja com usuário e senha, e acessaria remotamente o mesmo informando
+ o ip(do computado da loja), usuário e senha.
+3º opção
+	O proprietário possui um escritório em casa, e para evitar que ele
+ se desloque sempre da sua casa para verificar o andamento da loja, foi proposto
+ que houvesse a aplicação em seu computador pessoal, e que seu computador
+ acessasse o banco de dados online para acessar os dados da loja.
+
