@@ -1,0 +1,6 @@
+-------------      Séries Cadastradas     -------------
+-------------------------------------------------------
+Codigo de cadastro da série: 2
+Nome da série: s
+Temporadas completas: 2
+Assistindo a: 3º temporada, episódio: 1

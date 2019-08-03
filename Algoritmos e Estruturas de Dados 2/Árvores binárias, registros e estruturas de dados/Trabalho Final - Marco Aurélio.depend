@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1456006108 source:f:\trabalho final - marco aurélio\main.cpp
+	<iostream>
+	<clocale>
+	<fstream>
+
+1456090392 source:f:\trabalho\trabalho final - marco aurélio\main.cpp
+	<clocale>
+	"biblio.h"
+
+1456075850 source:e:\trabalho\trabalho final - marco aurélio\main.cpp
+	<clocale>
+	"biblio.h"
+
+1456075970 e:\trabalho\trabalho final - marco aurélio\biblio.h
+	<iostream>
+	<fstream>
+
+1456228788 f:\trabalho\trabalho final - marco aurélio\biblio.h
+	<iostream>
+	<fstream>
+
+1456093992 source:c:\users\laxus\dropbox\aula\ifmg 2015 -\engenharia de computação 2º semestre\aed ii\3 - trabalhos\trabalho\trabalho final - marco aurélio\main.cpp
+	<clocale>
+	"biblio.h"
+
+1456234038 c:\users\laxus\dropbox\aula\ifmg 2015 -\engenharia de computação 2º semestre\aed ii\3 - trabalhos\trabalho\trabalho final - marco aurélio\biblio.h
+	<iostream>
+	<fstream>
+
+1456090392 source:c:\users\m\dropbox\aula\ifmg 2015 -\engenharia de computação 2º semestre\aed ii\3 - trabalhos\trabalho\trabalho final - marco aurélio\main.cpp
+	<clocale>
+	"biblio.h"
+
+1456230438 c:\users\m\dropbox\aula\ifmg 2015 -\engenharia de computação 2º semestre\aed ii\3 - trabalhos\trabalho\trabalho final - marco aurélio\biblio.h
+	<iostream>
+	<fstream>
+
