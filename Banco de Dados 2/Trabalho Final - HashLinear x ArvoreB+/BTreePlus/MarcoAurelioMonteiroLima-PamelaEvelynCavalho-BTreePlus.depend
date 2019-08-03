@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1512147519 source:/home/m/Documentos/MarcoAurelioMonteiroLima-PamelaEvelynCavalho-BTreePlus/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<cstdlib>
+	<string>
+	<cstdio>
+	<sstream>
+	<fstream>
+	<vector>
+	<boost/algorithm/string.hpp>
+
