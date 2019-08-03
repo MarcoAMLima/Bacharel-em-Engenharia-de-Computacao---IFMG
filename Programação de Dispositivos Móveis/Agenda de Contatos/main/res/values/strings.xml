@@ -1,0 +1,15 @@
+<resources>
+    //Nome do projeto
+    <string name="app_name">Contatos</string>
+    //text views da classe de adicionar um novo contato
+    <string name="lbl_email">Email:</string>
+    <string name="lbl_nome">Nome:</string>
+    <string name="lbl_endereco">Endereço:</string>
+    <string name="lbl_telefone">Telefone:</string>
+    <string name="lbl_grupos">Grupos:</string>
+    <string name="lbl_datas">Datas Especiais:</string>
+    //opções do menu actContato
+    <string name="lbl_salvar">Salvar</string>
+    <string name="lbl_alterar">Alterar</string>
+    <string name="lbl_excluir">Excluir</string>
+</resources>

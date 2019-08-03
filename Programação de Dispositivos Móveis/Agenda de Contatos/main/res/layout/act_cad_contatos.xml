@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    tools:context="com.example.m.agendacontato.ActCadContatos">
+
+    <LinearLayout
+        android:id="@+id/lnlCampoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_nome"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:textSize="17sp"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlCampoTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_telefone"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtTelefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:textSize="17sp"
+                android:inputType="phone" />
+
+            <Spinner
+                android:id="@+id/spnTelefone"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:textSize="17sp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/edtTelefone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlCampoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:textSize="17sp"
+                android:inputType="textEmailAddress" />
+
+            <Spinner
+                android:id="@+id/spnEmail"
+                android:layout_width="170dp"
+                android:textSize="17sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlCampoEndereço"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_endereco"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtEndereco"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:textSize="17sp"
+                android:inputType="none|text" />
+
+            <Spinner
+                android:id="@+id/spnEndereco"
+                android:layout_width="170dp"
+                android:textSize="17sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlCampoDatasEspeciais"
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_datas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_datas"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtDatas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:focusable="true"
+                android:textSize="17sp"
+                android:focusableInTouchMode="false" />
+
+            <Spinner
+                android:id="@+id/spnDatas"
+                android:layout_width="170dp"
+                android:textSize="17sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlGrupos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_grupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_grupos"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/edtGrupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:textSize="17sp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+</LinearLayout>
