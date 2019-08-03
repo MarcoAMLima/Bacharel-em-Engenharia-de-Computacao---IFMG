@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1513006296 source:/home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/main.cpp
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	"filosofo.h"
+	"filosofo.cpp"
+	<thread>
+	<chrono>
+	"jantar.h"
+
+1513012164 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/hashi.h
+	<iostream>
+	<atomic>
+	<cstdlib>
+
+1513011716 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/filosofo.h
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	<atomic>
+
+1512994815 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/filosofo.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"filosofo.h"
+	"hashi.h"
+	<atomic>
+	<ctime>
+
+1513012165 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/jantar.h
+	<cstdlib>
+	<ctime>
+
+1513006296 source:/media/m/MP8GB/Engenharia de Computação 6º semestre/SO/cinco-filosofos/main.cpp
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	"filosofo.h"
+	"filosofo.cpp"
+	<thread>
+	<chrono>
+	"jantar.h"
+
+1513012164 /media/m/MP8GB/Engenharia de Computação 6º semestre/SO/cinco-filosofos/hashi.h
+	<iostream>
+	<atomic>
+	<cstdlib>
+
+1513011716 /media/m/MP8GB/Engenharia de Computação 6º semestre/SO/cinco-filosofos/filosofo.h
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	<atomic>
+
+1512994814 /media/m/MP8GB/Engenharia de Computação 6º semestre/SO/cinco-filosofos/filosofo.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"filosofo.h"
+	"hashi.h"
+	<atomic>
+	<ctime>
+
+1513012164 /media/m/MP8GB/Engenharia de Computação 6º semestre/SO/cinco-filosofos/jantar.h
+	<cstdlib>
+	<ctime>
+

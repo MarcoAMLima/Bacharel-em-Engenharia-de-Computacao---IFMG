@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1498427219 source:c:\users\m\desktop\eduardoaugusto_marcoaurerio_marcusvinicius\filegraph.cpp
+	<iostream>
+	"filegraph.h"
+
+1498418331 c:\users\m\desktop\eduardoaugusto_marcoaurerio_marcusvinicius\filegraph.h
+	<list>
+	<fstream>
+	<string>
+	<sstream>
+
+1498427220 source:f:\engenharia de computação 5º semestre\tecnicas de programacao\trabalho 2º\eduardoaugusto_marcoaurerio_marcusvinicius\filegraph.cpp
+	<iostream>
+	"filegraph.h"
+
+1498418332 f:\engenharia de computação 5º semestre\tecnicas de programacao\trabalho 2º\eduardoaugusto_marcoaurerio_marcusvinicius\filegraph.h
+	<list>
+	<fstream>
+	<string>
+	<sstream>
+
+1498441542 source:f:\engenharia de computação 5º semestre\tecnicas de programacao\trabalho 2º\eduardoaugusto_marcoaurerio_marcusvinicius\graph.cpp
+	"Graph.h"
+
+1498441532 f:\engenharia de computação 5º semestre\tecnicas de programacao\trabalho 2º\eduardoaugusto_marcoaurerio_marcusvinicius\graph.h
+	<iostream>
+	<list>
+
