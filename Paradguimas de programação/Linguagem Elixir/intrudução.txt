@@ -1,0 +1,37 @@
+A linguagem elixir é brasileira foi criada em 2011
+feita em cima da lingagem Erlang
+compilada para byecode Beam
+	(maQUINA VIRTUAL eRLANG)
+	o earlang foi criado pela ericson empresa de telecomunicações
+
+
+CARACteristicas
+	*funcional então ela herda a ideia de dados imutáveis isso facilita pq não em perigo de ficar alterando dados importantes
+	*concorrencia é feita em processos threads pequenas elas se comunicam atraves de mensagens. cada processo tanto no earlang tanto no elixir tem seu id e seu espaço individual ou seja não tem aquilo de processo compartilhar espaços.
+	*tolerantes a falhas, pq como seus procesos criados tem seu espaço individual se um processo falha ele não atrapalha outros processos, é possivel levantar o processo individualmente.
+	*O elixir é compativel com 30 anos de libs do earlang. basicamente que programa em earlang consiguirá programar com facilidade em elixir só vai precisar se adaptar a sintaxe que é bem mais agradavel que o earlang.
+	*cofidencialidade é muita alta, pois a chance de ter uma falha critica é muita pequena
+	*baixa latencia ou seja o tempo entre a sua requisão e a resposta é muita baixa.
+	*é muito usada em microserviços e web
+	*talvez aplicações bem simples e leves talvez não seja uma boa ideia utilizar o poder do elixir, earlang
+
+sintaxe
+	operador pipe | aumenta a legibilidade
+	temos essa chamada de função
+
+	-> Depois que passa por isso já fica um pouco  dificil
+		foo(bar_two(ipsum(argument("arq")), "second"))
+
+	-> É possivel reescrever assim:
+	argument("arq")
+		|> ipsum
+		|> bar_two("second")
+		|> foo
+
+	isso aumenta bastante a legibilidade
+
+somar os itens de uma lista de inteiros de forma recursiva
+sum [2,3,4]
+def sum([head | rest]) do
+	head + sum(rest)
+end

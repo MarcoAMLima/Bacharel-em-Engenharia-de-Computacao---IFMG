@@ -1,0 +1,23 @@
+aula dia 09/04/2018
+	declaração de tuplas (10,92)
+	ponto :: (Int, Int) -> (Int, Int) -> (Int, Int) //cabeçalho da função, 2 primeiros parametros e ultimo retorno
+	comentários --
+
+aula dia 11/04q2018
+	declarar lista vazia
+		[]
+	comparar lista
+		[] == []
+	lista com elementos
+		[1,2,3,4]
+	cabeçalho da lista
+		head [1,2,3]
+	rabo da lista
+		tail [1,23]
+	lista de tuplas
+		[(2,3),(3,3)]
+	pessoa :: Pessoa // nome da variavel :: tipo
+
+aula dia 16/04/2018
+	exe 1: receber duas lista e retornar um booleano, se são iguais ou diferentes
+	exe 2: inverter uma lista

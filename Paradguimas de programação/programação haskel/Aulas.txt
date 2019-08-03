@@ -1,0 +1,53 @@
+compilar no haskell
+	--ghci carregar o compilador
+	--:l nomedoarquivo.hs abrir arquivo ou recarregar
+	--:q sair
+	--ctrl+l limpar o terminal
+
+aula dia 09/04/2018
+	declaração de tuplas (10,92)
+	ponto :: (Int, Int) -> (Int, Int) -> (Int, Int) //cabeçalho da função, 2 primeiros parametros e ultimo retorno
+	comentários --
+
+aula dia 11/04q2018
+	declarar lista vazia
+		[]
+	comparar lista
+		[] == []
+	lista com elementos
+		[1,2,3,4]
+	cabeçalho da lista
+		head [1,2,3]
+	rabo da lista
+		tail [1,23]
+	lista de tuplas
+		[(2,3),(3,3)]
+	pessoa :: Pessoa // nome da variavel :: tipo
+
+aula dia 16/04/2018
+	exe 1: receber duas lista e retornar um booleano, se são iguais ou diferentes
+	exe 2: inverter uma lista
+
+aula dia 25/04/2018 feito
+	--trabalhinho de boa entregar até dia 2/5
+	--Ordenacao simples
+	--primeiro passo: encontrar o menor o elemento
+	--segundo passo: remover o menor elemento
+	--terceiro passo: colocar em uma lista auxiliar
+
+	--interações
+	[4,7,5,8] -- menor é 4
+	[7,5,8][4] -- pegar o menor elemento e inserir em uma lista auxiliar
+	[7,8][4,5]
+	[8][4,5,7]
+	[][4,5,7,8]
+
+	--comprensão de lista
+		--multiplicar todos os elementos por 2
+		[x*2 : x <- [1,2,3,4]]
+		--intens da lista maiores que 5
+		[x : x <- [2,5,6,7] > 5]
+
+aula 09/05/2018
+	trabalho 
+		falar da linguagem elixir

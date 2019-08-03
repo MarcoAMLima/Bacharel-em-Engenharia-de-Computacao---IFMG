@@ -1,0 +1,53 @@
+1º aula
+	--printa na tela uma mensagem
+		print "Hello World"
+	--valor de pi
+		pi
+
+6º aula, variáveis anônimas
+	_ -> isso é a representação
+
+7º aula, tuplas
+	() - tupla vazia
+	(1,2,3,4)
+	(1, "maca") - pode ter tuplas de tipos diferentes
+
+8º aula, extraindo valores das tuplas
+	--extrair primeiro da tupla
+	fst (2,3)
+	--extrair segundo da tupla
+	snd (3,4,5)
+
+10º aula, listas
+	*uma string é uma lista de caracteres
+	[] - lista vazia
+	[1,2,3,6]
+	['a','f','g']
+	[True,False,True]
+	pode haver também lista de listas, listas de tuplas
+	--retornar a cabeça da lista
+	head [1,2,3]
+	--retornar a cauda da lista, tirando o primeiro da lista é o resto
+	tail [5,3,69,35]
+ 
+11º Listas
+	--comparar listas
+	[] == [] -> True
+	[] == [1,2,3] -> False
+	--adicionar itens a lista
+	1:[2,3,4] -> [1,2,3,4]
+
+13º listas parte 3
+	função que recebe uma lista e retorna o inverso da lista
+	2º jeito de fazer
+		faz a chamada recursiva da lista passando a cauda e concatenando ao final da lista a cabeça
+
+14º listas parte 4
+	função para verificar se um elemento pertence ou não a uma lista
+		eu verifico se o elemento passado é igual a cabeça da lista, se não eu chamo a função recursivamente passando a cauda e o número
+	função para encontrar o maior elemento da lista
+		eu verifico se a cabeça da lista é maior que cauda se não for eu chamo recursivamente a função passando a cauda
+	função para verificar se todos os elementos da lista são pares
+		se o resto da divisão da cabeça da lista por 2 for = a 1 retorno false, se não chamo recursivamene a função passando como parametro o resto da lista
+
+15º Compreensão de listas

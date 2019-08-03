@@ -1,0 +1,3 @@
+--ghci carregar o compilador
+--:l nomedoarquivo.hs abrir arquivo ou recarregar
+--:q sair
