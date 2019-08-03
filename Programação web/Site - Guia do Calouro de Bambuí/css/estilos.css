@@ -1,0 +1,25 @@
+.img-responsive{
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+nav {
+	color:white;
+}
+ul li a{
+	color:white;	
+}
+
+table{
+	width:80px;
+	text-align:center;
+	
+}
+
+button{
+	background: #000; color: #fff;
+}
+
+th, td{
+    text-align:center;
+}

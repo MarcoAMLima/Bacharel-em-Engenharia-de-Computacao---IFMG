@@ -1,0 +1,11 @@
+
+CREATE DATABASE postgres;
+CREATE TABLE public.usuario
+(
+    login character(20) COLLATE pg_catalog."default" NOT NULL,
+    senha character(20) COLLATE pg_catalog."default",
+    perfil character(50) COLLATE pg_catalog."default",
+    email character(50) COLLATE pg_catalog."default",
+    cpf character(11) COLLATE pg_catalog."default",
+    CONSTRAINT usuario_pkey PRIMARY KEY (login)
+)

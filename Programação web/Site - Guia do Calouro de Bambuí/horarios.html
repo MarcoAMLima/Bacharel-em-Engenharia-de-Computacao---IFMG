@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="utf-8">
+		<title>Horários de ônibus</title>
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Arquivo css, com os estilos -->
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+    
+	<body>
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #2E8B57; color:white;">
+            <a class="navbar-brand"; style="font-family: Segoe UI Black;">Guia Calouro Bambuí</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto" >
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.php" style="color:white;">Ínicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="horarios.html" style="color:white;">Horários de Ônibus</a>
+                  </li>
+                  <!--menu dropdown -->
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" style="color:white;" data-toggle="dropdown" id="navDrop">Dicas</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="dormir.html">Onde Dormir?</a>
+                                <a class="dropdown-item" href="comer.html">Onde Comer?</a>
+                                <a class="dropdown-item" href="lojas.html">Lojas/Comercio</a>
+                            </div>
+                     </li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="who.php"  style="color:white;">Quem somos?</a></li>
+                </ul>
+              </div>
+        </nav>
+        
+        <div class="jumbotron text-center"; style="background-color: #3CB371">
+          <h1 style="font-family: Segoe UI Black; font-size: 40px; color: white;">Horário de ônibus</h1>
+          <p style="font-family: Segoe UI Black; font-size: 20px; color: white;">IFMG - Campus Bambuí</p>
+      </div>
+        <div class="container">
+    	   <div class="row">
+    		<div class="col-lg-2">
+    			<table class="table table-bordered table-hover">
+                    <thead>
+                      <tr><th colspan="2" style="background-color: #FF8C00; color: white;">Posto Girasol</th></tr>
+                      <tr>
+                          <th style="color: black">Ida</th>
+                          <th style="color: black">Retorno</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                            <td>06:25</td>
+                            <td>06:55</td>
+                      </tr>
+                      <tr>
+                            <td>07:20</td>
+                            <td>07:55</td>
+                      </tr>
+                      <tr>
+                            <td>08:10</td>
+                            <td>08:45</td>
+                      </tr>
+                      <tr>
+                            <td>09:00</td>
+                            <td>09:35</td>
+                      </tr>
+                      <tr>
+                            <td>10:00</td>
+                            <td>10:35</td>
+                      </tr>
+                      <tr>
+                            <td>11:00</td>
+                            <td>11:30</td>
+                      </tr>
+                      <tr>
+                            <td>12:30</td>
+                            <td>13:10</td>
+                      </tr>
+                      <tr>
+                            <td>13:20</td>
+                            <td>13:55</td>
+                      </tr>
+                      <tr>
+                            <td>14:10</td>
+                            <td>14:45</td>
+                      </tr>
+                      <tr>
+                            <td>15:05</td>
+                            <td>15:40</td>
+                      </tr>
+                      <tr>
+                            <td>16:00</td>
+                            <td>16:40</td>
+                      </tr>
+                      <tr>
+                            <td>17:05</td>
+                            <td>17:30</td>
+                      </tr>
+                      <tr>
+                            <td>18:25</td>
+                            <td>18:55</td>
+                      </tr>
+                      <tr>
+                            <td>19:20</td>
+                            <td>19:55</td>
+                      </tr>
+                      <tr>
+                            <td>20:15</td>
+                            <td>20:45</td>
+                      </tr>
+                      <tr>
+                            <td>21:10</td>
+                            <td>21:45</td>
+                      </tr>
+                      <tr>
+                            <td>22:10</td>
+                            <td>22:40</td>
+                      </tr>
+                      <tr>
+                          <th colspan="2" style="background-color: #FF8C00;color: white;">Percurso</th>
+                      </tr>
+                      <tr>
+                          <td colspan="2" style="text-align:left;">Posto Girassol, Rua Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do comércio, Rua Alzira Torres</td>
+                      </tr>
+                    </tbody>
+                </table>
+    		</div>
+    		<div class="col-lg-10">
+    			<table class="table table-bordered table-hover">
+                    <thead>
+                      <tr><th colspan="3" style="background-color: #FF8C00; color: white;">Cerrado</th></tr>
+                      <tr>
+                          <th>Ida</th>
+                          <th>Retorno</th>
+                          <th>Percurso</th>
+                      </tr>
+                    </thead>
+                     <tbody>
+                      <tr>
+                       <td>06:25</td>
+                       <td>-</td>
+                       <td style="text-align:left;">Rodoviária, Cerrado, Campos, Rocinha, Rua do Comércio, Rua Alzira Torres</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>07:10</td>
+                       <td style="text-align:left;">Quartel (PMMG), Restaurante Avenida, Rua Santos Dumont, Posto Girassol</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>11:30</td>
+                       <td style="text-align:left;">Quartel (PMMG), Sorveteria do Jesus, Forúm, Cerrado, Rodoviária</td>
+                      </tr>
+                      <tr>
+                       <td>12:25</td>
+                       <td>-</td>
+                       <td style="text-align:left;">Rodoviária, Cerrado, Campos, Rua Tiradentes, Sorveteria do Jesus, Forúm, Rocinha, Rua do Comécio, Rua Alzira Torres</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>14:45</td>
+                       <td style="text-align:left;">Quartel, Sorveteria do Jesus, Forúm, Cerrado, Rodoviária</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>15:40</td>
+                       <td style="text-align:left;">Quartel, Sorveteria do Jesus, Forúm, Cerrado, Rodoviária</td>
+                      </tr>
+                      <tr>
+                       <td>18:30</td>
+                       <td>-</td>
+                       <td style="text-align:left;">Rodoviária, Cerrado, Campos, Rua Tiradentes, Sorveteria do Jesus, Forúm, Rocinha, Rua do Comécio, Rua Alzira Torres</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>17:30</td>
+                       <td style="text-align:left;">Quartel, Sorveteria do Jesus, Forúm, Cerrado, Rodoviária</td>
+                      </tr>
+                      <tr>
+                       <td>-</td>
+                       <td>19:10</td>
+                       <td style="text-align:left;">Quartel, Sorveteria do Jesus, Forúm,Rodoviária, Cerrado</td>
+                      </tr>
+                     </tbody>
+                </table>
+                <table class="table table-bordered table-hover mt-5">
+                    <thead>
+                      <tr><th colspan="3" style="background-color: #FF8C00; color: white;">Rola moça</th></tr>
+                      <tr>
+                          <th>Ida</th>
+                          <th>Retorno</th>
+                          <th>Percurso</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>06:25</td>
+                            <td>-</td>
+                            <td style="text-align:left;">Rua Tiradentes, Sorveteria do Jesus, Forúm, Rocinha, Rua do comércio, Rua Alzira Torres</td>
+                      </tr>
+                      <tr>
+                            <td>-</td>
+                            <td>17:05</td>
+                            <td style="text-align:left;">Quartel (PMMG), Restaurante Avenida, Rua Santos Dumont, Posto Girassol</td>
+                      </tr>
+                     </tbody>
+                </table>
+                <table class="table table-bordered table-hover mt-5">
+                    <thead>
+                      <tr><th colspan="3" style="background-color: #FF8C00; color: white;">Alto da antena</th></tr>
+                      <tr>
+                          <th>Ida</th>
+                          <th>Retorno</th>
+                          <th style="text-align:center;">Percurso</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>06:25</td>
+                            <td>-</td>
+                            <td style="text-align:left;">Supermercado Mag Mag, Supermercado São Francisco, Escola Sagrado Coração (Lagoa Seca), Bolota Lanches, Rua Santo Antônio</td>
+                      </tr>
+                      <tr>
+                            <td>-</td>
+                            <td>17:30</td>
+                            <td style="text-align:left;">Rua Santo Antônio, Bolota Lanches, Escola Sagrado Coração (Lagoa Seca)</td>
+                      </tr>
+                     </tbody>
+                </table>
+    		</div>
+            <div class="col-lg-12">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                          <th colspan="3" style="background-color: #FF8C00; color: white;">Sábados, domingos e feriados</th></tr>
+                      <tr>
+                      <tr>
+                          <th colspan="3" style="background-color: #FF8C00; color: white;">Posto Girasol</th></tr>
+                      <tr>
+                          <th>Ida</th>
+                          <th>Retorno</th>
+                          <th>Percurso</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>06:25</td>
+                           <td>07:10</td>
+                           <td style="text-align:left;">Posto Girassol, Cerrado, Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                        <tr>
+                           <td>10:30</td>
+                           <td>11:10</td>
+                           <td  style="text-align:left;">Posto Girassol, Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                        <tr>
+                           <td>12:30</td>
+                           <td>13:10</td>
+                           <td style="text-align:left;">Posto Girassol, Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                        <tr>
+                           <td>15:30</td>
+                           <td>16:10</td>
+                           <td style="text-align:left;">Posto Girassol, Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                        <tr>
+                           <td>18:30</td>
+                           <td>19:10</td>
+                           <td style="text-align:left;">Posto Girassol, Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                        <tr>
+                           <td>21:15</td>
+                           <td>-</td>
+                           <td style="text-align:left;">(Somentes aos Domingos) Rodoviária,  Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do Comércio, Rua Alzira Tôrres.</td>
+                        </tr>
+                    </tbody>
+                </table>
+               </div>
+    	   </div> 		
+        </div>
+
+        <!--rodapé -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                            <h1 class="display-5"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i>Guia Calouro Bambuí</h1>
+                            <p class="lead">Site feito de aluno para aluno<br>Aproveite o site e nos siga no instagram.</p>
+                            <img src="img/instagram.png" class="img-responsive" alt="Cinque Terre" width="20"><a target="_blanck" href="https://www.instagram.com/marcomllima/"> @marcomllima</a>,
+                            <img src="img/instagram.png" class="img-responsive" alt="Cinque Terre" width="20"><a target="_blanck" href="https://www.instagram.com/pamelaevelync/"> @pamelaevelync</a>
+                            <hr>
+                            <!-- Footer -->
+                            <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+                              <!-- Footer Links -->
+                              <!-- Copyright -->
+                              <div class="footer-copyright text-center py-1">© 2018 Copyright:
+                                <a href="who.php"> Marco Aurélio e Pâmela </a>
+                              </div>
+                              <!-- Copyright -->
+                            </footer>
+                            <!-- Footer -->
+                    </div>
+                </div>                
+            </div>          
+        </div>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1529967185 source:/home/juliocmalvares/Documentos/2018.1/Redes/TPF/marcoAurelio-marcusVinicius-julioCesar-pamelaCarvalho/Novo/Server/Server.cpp
+	<iostream>
+	<cstdlib>
+	<arpa/inet.h>
+	<unistd.h>
+	<sys/socket.h>
+	<thread>
+	<cstring>
+	<vector>
+	"Server.h"
+	<cstdio>
+	<sstream>
+	"hash256.h"
+	"base64.h"
+
+1529967195 /home/juliocmalvares/Documentos/2018.1/Redes/TPF/marcoAurelio-marcusVinicius-julioCesar-pamelaCarvalho/Novo/Server/Server.h
+	<iostream>
+	<cstdlib>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<cstring>
+	<vector>
+	<stdio.h>
+	<sstream>
+	<thread>
+
+1529965665 /home/juliocmalvares/Documentos/2018.1/Redes/TPF/marcoAurelio-marcusVinicius-julioCesar-pamelaCarvalho/Novo/Server/hash256.h
+	<iostream>
+	<cstring>
+	<openssl/sha.h>
+
+1529965599 /home/juliocmalvares/Documentos/2018.1/Redes/TPF/marcoAurelio-marcusVinicius-julioCesar-pamelaCarvalho/Novo/Server/base64.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"base64.h"
+	<openssl/bio.h>
+	<openssl/evp.h>
+	<openssl/buffer.h>
+	<assert.h>
+

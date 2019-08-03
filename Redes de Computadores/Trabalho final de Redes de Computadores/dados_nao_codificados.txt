@@ -1,0 +1,31 @@
+user: 11111
+pass: 11111
+
+user: 22222
+pass: 22222
+
+user: 33333
+pass: 33333
+
+user: 44444
+pass: 44444
+
+user: 55555
+pass: 55555
+
+user: 66666
+pass: 66666
+
+user: 77777
+pass: 77777
+
+user: 88888
+pass: 88888
+
+user: 99999
+pass: 0987654321
+
+user: 00000
+pass: 1234567890
+
+

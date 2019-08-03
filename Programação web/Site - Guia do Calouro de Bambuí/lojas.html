@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Lojas/Comércio</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Arquivo css, com os estilos -->
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body style="background-color: white";>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #2E8B57; color:white;">
+            <a class="navbar-brand"; style="font-family: Segoe UI Black;">Guia Calouro Bambuí</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto" >
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.php" style="color:white;">Ínicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="horarios.html" style="color:white;">Horários de Ônibus</a>
+                  </li>
+                  <!--menu dropdown -->
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" style="color:white;" data-toggle="dropdown" id="navDrop">Dicas</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="dormir.html">Onde Dormir?</a>
+                                <a class="dropdown-item" href="comer.html">Onde Comer?</a>
+                                <a class="dropdown-item" href="lojas.html">Comércio em geral</a>
+                            </div>
+                     </li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="who.php"  style="color:white;">Quem somos?</a></li>
+                </ul>
+              </div>
+        </nav>
+        <!--banner superior -->
+          <div class="jumbotron text-center"; style="background-color: #3CB371">
+              <h1 style="font-family: Segoe UI Black; font-size: 40px; color: white">Comércio em geral</h1>
+              <p style="font-family: Segoe UI Black; font-size: 20px; color: white">Lugares úteis que você vai precisar. Bambuí - MG</p>
+          </div>
+
+      <!-- corpo da página -->
+      <div class="container">
+           <div class="row">
+                <div class="row justify-content-sm-center">
+          
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">  
+                          <img class="card-img-top" src="img/coronel.jpg">
+                          <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">Coronel Bier</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal1"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">
+                        
+                          <br><br><br><br><br>
+                          <img class="card-img-top" src="img/farmacia.jpg">
+                          <br><br><br>
+                          <div class="card-body">
+                            
+                            <h4 class="card-title" style="text-align: center;">Farmácia Brasil</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal2"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">
+                        
+                          <br><br><br><br><br>
+                          <img class="card-img-top" src="img/pagpouco.jpg">
+                          <div class="card-body">
+                          <br><br><br>
+                            
+                            <h4 class="card-title" style="text-align: center;">Supermercado Pag Pouco</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal3"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+          
+          </div>
+        </div>
+        <div class="row">
+                <div class="row justify-content-sm-center">
+          
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">  
+                          <img class="card-img-top" src="img/acai.jpg">
+                          <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">Açaí Square</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal4"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">
+                        
+                          <img class="card-img-top" src="img/royal.jpg">
+                          <div class="card-body">
+                            
+                            <h4 class="card-title" style="text-align: center;">Royal Scoth Bar</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal5"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                      <div class="card mb-5">
+                        
+                          <img class="card-img-top" src="img/cacau.jpg">
+                          <div class="card-body">
+                            
+                            <h4 class="card-title" style="text-align: center;">Cacau Show</h4>
+                            <!--<p class="card-text"></p>-->
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal6"> + Mais Informações</a>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+    </div> 
+   </div>
+    
+    <!--rodapé -->
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                            <h1 class="display-5"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i>Guia Calouro Bambuí</h1>
+                            <p class="lead">Site feito de aluno para aluno<br>Aproveite o site e nos siga no instagram.</p>
+                            <img src="img/instagram.png" class="img-responsive" alt="Cinque Terre" width="20"><a target="_blanck" href="https://www.instagram.com/marcomllima/"> @marcomllima</a>,
+                            <img src="img/instagram.png" class="img-responsive" alt="Cinque Terre" width="20"><a target="_blanck" href="https://www.instagram.com/pamelaevelync/"> @pamelaevelync</a>
+                            <hr>
+                            <!-- Footer -->
+                            <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+                              <!-- Footer Links -->
+                              <!-- Copyright -->
+                              <div class="footer-copyright text-center py-1">© 2018 Copyright:
+                                <a href="who.php"> Marco Aurélio e Pâmela </a>
+                              </div>
+                              <!-- Copyright -->
+                            </footer>
+                            <!-- Footer -->
+                    </div>
+                </div>                
+            </div>          
+        </div>
+    
+    <!-- Modal -->
+    <!-- conteudo da janela de conteudo 1 -->
+    <div class="modal fade" id="siteModal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Coronel Bier</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      R. dos Expedicionários, 52 <br>
+                                    <b>Telefone:</b><br>
+                                       (37) 3431-5235
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/coronel2.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/Coronel+Bier/@-20.0118402,-45.9785366,15z/data=!4m5!3m4!1s0x0:0xc7461445a03c6b2b!8m2!3d-20.0118402!4d-45.9785366"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- conteudo da janela de conteudo 2 -->
+    <div class="modal fade" id="siteModal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Farmácia Brasil</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      R. Alzira Tôrres, 326 - Lava Pés<br>
+                                    <b>Telefone:</b><br>
+                                       (37) 3431-1634
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/farmacia2.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/Farm%C3%A1cia+Brasil/@-20.016026,-45.9832021,15z/data=!4m5!3m4!1s0x0:0xd2a2aace3068a52c!8m2!3d-20.016026!4d-45.9832021"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- conteudo da janela de conteudo 3 -->
+    <div class="modal fade" id="siteModal3" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Supermercado Pag Pouco</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      Av. Armando Franco, 186 - Centro <br>
+                                    <b>Telefone:</b><br>
+                                       (37) 3431-1207
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/pagpouco2.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/Supermercado+Smart+Pag+Pouco/@-20.010397,-45.978023,15z/data=!4m5!3m4!1s0x0:0x833db4f1ce958ef0!8m2!3d-20.010397!4d-45.978023"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- conteudo da janela de conteudo 4 -->
+    <div class="modal fade" id="siteModal4" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Açaí Square</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      R. dos Expedicionários , 102<br>
+                                    <b>Telefone:</b><br>
+                                       (37) 99815-6746
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/acai2.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/A%C3%A7a%C3%AD+Square/@-20.0122392,-45.9775602,15z/data=!4m5!3m4!1s0x0:0x454475d72e0100ed!8m2!3d-20.0122392!4d-45.9775602"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- conteudo da janela de conteudo 5 -->
+    <div class="modal fade" id="siteModal5" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Royal Scott Bar</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      R. Rodolfo Jose Chaves, 63<br>
+                                    <b>Telefone:</b><br>
+                                       (37) 3431-9854
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/royal2.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/Royal+Bar/@-20.0144651,-45.9816419,17z/data=!4m8!1m2!2m1!1sroyal++bambui!3m4!1s0x94b3ebdf3703a5e9:0x6447ac7f41a0939!8m2!3d-20.0123287!4d-45.9787193"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- conteudo da janela de conteudo 6 -->
+    <div class="modal fade" id="siteModal6" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cacau Show</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p><b>Endereço:</b><br>
+                                      Rua Getúlio Vargas, 77, Centro <br>
+                                    <b>Telefone:</b><br>
+                                       (37) 3431-1585
+                                   </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--imagem do local -->
+                                <img src="img/Cacau1.jpg" class="img-responsive" alt="Cinque Terre" width="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blanck" href="https://www.google.com.br/maps/place/Cacau+Show/@-20.0114453,-45.9778943,15z/data=!4m5!3m4!1s0x0:0xd94919be762f932!8m2!3d-20.0114453!4d-45.9778943"><button type="button" class="btn btn-success">Ver no Mapa</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
